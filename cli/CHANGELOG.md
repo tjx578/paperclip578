@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD024 -->
 # paperclipai
 
 ## 0.3.1
