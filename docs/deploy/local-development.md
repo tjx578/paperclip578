@@ -84,7 +84,7 @@ pnpm dev
 ## Data Locations
 
 | Data | Path |
-|------|------|
+| ------ | ------ |
 | Config | `~/.paperclip/instances/default/config.json` |
 | Database | `~/.paperclip/instances/default/db` |
 | Storage | `~/.paperclip/instances/default/data/storage` |
