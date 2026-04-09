@@ -5,6 +5,8 @@ project: operational-cadence
 recurring: true
 ---
 
+# Asia Session Confirmation
+
 Execute the daily Asia session confirmation at 10:00 AM SGT.
 
 1. FEEDGUARD delivers the feed integrity report

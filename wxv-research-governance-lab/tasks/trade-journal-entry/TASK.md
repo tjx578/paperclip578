@@ -5,6 +5,8 @@ project: operational-cadence
 recurring: true
 ---
 
+# Trade Journal Entry
+
 Record the mandatory end-of-session trade journal entry.
 
 1. Collect all session outputs: analysis, scores, gate results, verdicts

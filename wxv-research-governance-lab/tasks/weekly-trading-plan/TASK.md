@@ -5,6 +5,8 @@ project: operational-cadence
 recurring: true
 ---
 
+# Weekly Trading Plan
+
 Produce the weekly trading plan following WEEKLY_TRADING_PLAN_v3.2 framework.
 
 1. Review previous week's journal outcomes with MEMVAULT

@@ -5,6 +5,8 @@ project: operational-cadence
 recurring: true
 ---
 
+# Weekly Review
+
 Conduct the mandatory weekly review.
 
 1. Aggregate all journal entries from the week (MEMVAULT)
