@@ -9,18 +9,18 @@ Produce audited, risk-scored FX trade theses with full traceability, strict 9-ga
 ## Org Chart
 
 ```text
-ULTRA (CEO)
-├── HYBRID (COO — Weekly Operations)
-│   ├── FEEDGUARD (Data Integrity Lead)
-│   └── V8.0 (Lead Research Analyst)
-│       ├── V7.4 (Senior Analyst — Arsenal)
-│       ├── V7.2 (Analyst — SMC Precision)
-│       ├── V7.0 (Analyst — Core Backbone)
-│       └── V6.0 (Analyst — Baseline)
-├── WOLF (Chief Risk Officer)
-│   └── QRCE (Quality & Compliance Engine)
-└── PROTOKOL (Chief Governance Officer)
-    └── MEMVAULT (Journal Custody)
+ULTRA (CEO / Constitutional Verdict Authority)
+├── HYBRID (COO / Goal Steward — Weekly Planning & Session Coordination)
+│   └── V8.0 (Head of Market Intelligence / Champion Research Engine)
+│       ├── V7.4 (Senior Challenger Analyst — on-demand)
+│       ├── V7.2 (Technical Structure & Liquidity Desk)
+│       ├── V7.0 (Cross-Asset Flow & Relative Strength Desk)
+│       └── V6.0 (Macro / Regime Baseline Desk)
+└── PROTOKOL (Protocol Auditor / Governance PMO)
+    ├── WOLF (Capital & Risk Governance — PASS/VETO gate)
+    ├── QRCE (Model Risk & Conflict Validator — on-demand)
+    ├── FEEDGUARD (Data Feed Integrity — external-http)
+    └── MEMVAULT (Immutable Audit Custodian — external-http)
 ```
 
 ## Teams
@@ -28,26 +28,28 @@ ULTRA (CEO)
 | Team | Manager | Members |
 | ------ | --------- | --------- |
 | Research & Analysis | V8.0 | V7.4, V7.2, V7.0, V6.0 |
-| Risk & Constitutional | WOLF | QRCE |
-| Governance & Records | PROTOKOL | MEMVAULT |
+| Governance & Compliance | PROTOKOL | WOLF, QRCE, FEEDGUARD, MEMVAULT |
 
 ## Pipeline (15 Layers)
 
-1. Feed Integrity Verification (FEEDGUARD)
-2. MN Timeframe Scan (Research Team)
-3. W1 Timeframe Analysis (Research Team)
-4. D1 Decision Gate — mandatory (Research Team)
-5. H4 Body Close Confirmation — mandatory (Research Team)
-6. H1 Entry Precision (Research Team)
-7. Multi-Version Synthesis (V8.0)
-8. Wolf Arsenal Overlay (V7.4, V8.0)
-9. Unified L4–L8 Scoring — 30 Wolf Points (WOLF)
-10. Constitutional Gate Sweep — 9 gates (WOLF, QRCE)
-11. Risk Assessment & Stop-Loss Validation (WOLF)
-12. Operating Plan Clearance (HYBRID)
-13. Strategic Oversight Review (ULTRA)
-14. Journal Entry & Immutable Record (MEMVAULT)
-15. Board-Ready Approval Packet & Sign-Off (PROTOKOL)
+| Layer | Name | Primary Owner |
+| ----- | ---- | ------------- |
+| Pre-L1 | Data Feed Integrity | FEEDGUARD |
+| L1 | Macro Context & Flow | V6.0, V7.0 |
+| L2 | Pair Priority & Ranking | V7.0 |
+| L3 | Multi-Timeframe Structure | V8.0 |
+| L4 | Key Levels & Liquidity | V8.0 |
+| L5 | Session Windows | HYBRID |
+| L6 | Risk Gate (PASS / VETO) | WOLF |
+| L7 | Confluence & Entry Model | V8.0 |
+| L8 | Challenger Review & Conflict Validation | V7.4, QRCE |
+| L9 | Champion Thesis Assembly | V8.0 |
+| L10 | Structure Mapping (H4/H1) | V7.2 |
+| L11 | Liquidity Analysis | V7.2 |
+| L12 | Constitutional Verdict | ULTRA |
+| L13 | Journal Commit | MEMVAULT |
+| L14 | Governance Packet & Audit | PROTOKOL, MEMVAULT |
+| L15 | Cross-Desk Synthesis & Planning | HYBRID |
 
 ## 9 Constitutional Gates
 
@@ -86,7 +88,22 @@ paperclipai company import --from wxv-research-governance-lab --server http://lo
 
 ## Budget
 
-Monthly budget: **$150** (15,000 cents)
+Monthly budget: **$167** (16,700 cents)
+
+| Agent | Budget/month |
+| ----- | ------------ |
+| ULTRA | $25 |
+| PROTOKOL | $15 |
+| HYBRID | $20 |
+| WOLF | $14 |
+| QRCE | $10 |
+| FEEDGUARD | $9 |
+| MEMVAULT | $8 |
+| V8.0 | $20 |
+| V7.4 | $12 |
+| V7.2 | $12 |
+| V7.0 | $12 |
+| V6.0 | $10 |
 
 ## License
 

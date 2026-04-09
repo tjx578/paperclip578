@@ -37,16 +37,41 @@ A research governance control plane for FX trade analysis. This company produces
 
 ## Pipeline
 
-The company operates a 15-layer pipeline scoring system with 30 Wolf Points and 9 constitutional gates:
+The company operates a 15-layer pipeline with constitutional gates. Each layer has a primary owner agent:
 
-1. **FEEDGUARD** validates data feed integrity
-2. **V6.0 → V7.0 → V7.2 → V7.4 → V8.0** perform progressive multi-timeframe analysis (MN → W1 → D1 → H4 → H1)
-3. **WOLF** runs constitutional gate checks and risk scoring
-4. **QRCE** performs independent quality and compliance verification
-5. **HYBRID** coordinates the operating plan and session readiness
-6. **ULTRA** provides strategic oversight and final direction
-7. **MEMVAULT** records the immutable journal entry
-8. **PROTOKOL** signs the board-ready approval packet
+| Layer | Name | Primary Owner |
+| ----- | ---- | ------------- |
+| Pre-L1 | Data Feed Integrity | FEEDGUARD |
+| L1 | Macro Context & Flow | V6.0, V7.0 |
+| L2 | Pair Priority & Ranking | V7.0 |
+| L3 | Multi-Timeframe Structure | V8.0 |
+| L4 | Key Levels & Liquidity | V8.0 |
+| L5 | Session Windows | HYBRID |
+| L6 | Risk Gate (PASS / VETO) | WOLF |
+| L7 | Confluence & Entry Model | V8.0 |
+| L8 | Challenger Review & Conflict Validation | V7.4, QRCE |
+| L9 | Champion Thesis Assembly | V8.0 |
+| L10 | Structure Mapping (H4/H1) | V7.2 |
+| L11 | Liquidity Analysis | V7.2 |
+| L12 | Constitutional Verdict | ULTRA |
+| L13 | Journal Commit | MEMVAULT |
+| L14 | Governance Packet & Audit | PROTOKOL, MEMVAULT |
+| L15 | Cross-Desk Synthesis & Planning | HYBRID |
+
+### Flow
+
+1. **FEEDGUARD** (Pre-L1) validates data feed integrity → DATA_OK / DEGRADED / BLOCKED
+2. **V6.0** (L1) provides macro regime baseline → regime classification
+3. **V7.0** (L1-L2) provides flow context and pair priority → priority matrix
+4. **V8.0** (L3-L4, L7, L9) orchestrates MTA structure and assembles champion thesis
+5. **V7.2** (L10-L11) provides structure mapping and liquidity analysis
+6. **V7.4** (L8) challenger review when FTA < 72% or conflicts detected
+7. **WOLF** (L6) runs risk gate → PASS or VETO (no override possible)
+8. **QRCE** (L8) validates FTA computation and inter-desk conflict
+9. **HYBRID** (L5, L15) coordinates session windows and weekly master plan
+10. **ULTRA** (L12) provides constitutional verdict on final thesis
+11. **MEMVAULT** (L13-L14) commits immutable journal record
+12. **PROTOKOL** (L14) signs board-ready approval packet
 
 ## Session Windows (Asia/Singapore)
 
