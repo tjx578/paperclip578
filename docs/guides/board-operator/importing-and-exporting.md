@@ -40,7 +40,7 @@ paperclipai company export <company-id> --out ./my-export
 ### Options
 
 | Option | Description | Default |
-|--------|-------------|---------|
+| -------- | ------------- | --------- |
 | `--out <path>` | Output directory (required) | — |
 | `--include <values>` | Comma-separated set: `company`, `agents`, `projects`, `issues`, `tasks`, `skills` | `company,agents` |
 | `--skills <values>` | Export only specific skill slugs | all |
@@ -92,10 +92,10 @@ paperclipai company import org/repo
 paperclipai company import org/repo/companies/acme
 ```
 
-### Options
+### Import Options
 
 | Option | Description | Default |
-|--------|-------------|---------|
+| -------- | ------------- | --------- |
 | `--target <mode>` | `new` (create a new company) or `existing` (merge into existing) | inferred from context |
 | `--company-id <id>` | Target company ID for `--target existing` | current context |
 | `--new-company-name <name>` | Override company name for `--target new` | from package |
@@ -135,6 +135,7 @@ paperclipai company import org/repo --target existing --company-id abc123 --dry-
 ```
 
 The preview shows:
+
 - **Package contents** — How many agents, projects, tasks, and skills are in the source
 - **Import plan** — What will be created, renamed, skipped, or replaced
 - **Env inputs** — Environment variables that may need values after import
@@ -182,7 +183,7 @@ paperclipai company import ./package \
 The CLI commands use these API endpoints under the hood:
 
 | Action | Endpoint |
-|--------|----------|
+| -------- | ---------- |
 | Export company | `POST /api/companies/{companyId}/export` |
 | Preview import (existing company) | `POST /api/companies/{companyId}/imports/preview` |
 | Apply import (existing company) | `POST /api/companies/{companyId}/imports/apply` |

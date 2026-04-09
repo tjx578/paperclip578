@@ -1,0 +1,52 @@
+schema: paperclip/v1
+
+company:
+  monthlyBudgetCents: 15000
+
+agents:
+  wolf:
+    inputs:
+      env:
+        WOLF_ARSENAL_API_KEY:
+          kind: secret
+          requirement: optional
+          description: API key for Tuyul Kartel Wolf Arsenal API v4.0
+  v8-0:
+    inputs:
+      env:
+        WOLF_ARSENAL_API_KEY:
+          kind: secret
+          requirement: optional
+          description: API key for Tuyul Kartel Wolf Arsenal API v4.0
+  v7-4:
+    inputs:
+      env:
+        WOLF_ARSENAL_API_KEY:
+          kind: secret
+          requirement: optional
+          description: API key for Tuyul Kartel Wolf Arsenal API v4.0
+
+routines:
+  weekly-trading-plan:
+    cron: "0 20 * * 0"
+    timezone: Asia/Singapore
+    taskPath: tasks/weekly-trading-plan
+    description: Weekly trading plan generation (Sunday 8 PM SGT)
+
+  weekly-review:
+    cron: "0 18 * * 5"
+    timezone: Asia/Singapore
+    taskPath: tasks/weekly-review
+    description: Mandatory weekly review (Friday 6 PM SGT)
+
+  asia-confirmation-session:
+    cron: "0 10 * * 1-5"
+    timezone: Asia/Singapore
+    taskPath: tasks/asia-confirmation-session
+    description: Daily Asia session confirmation (10 AM SGT weekdays)
+
+  trade-journal-entry:
+    cron: "0 22 * * 1-5"
+    timezone: Asia/Singapore
+    taskPath: tasks/trade-journal-entry
+    description: End-of-session journal entry (10 PM SGT weekdays)

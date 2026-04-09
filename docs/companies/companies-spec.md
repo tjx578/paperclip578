@@ -173,7 +173,7 @@ tags:
   - engineering
 ```
 
-### Semantics
+### Team Semantics
 
 - a team package is a reusable subtree, not necessarily a runtime database table
 - `manager` identifies the root agent of the subtree
@@ -184,7 +184,7 @@ tags:
 
 `AGENTS.md` defines an agent.
 
-### Example
+### Agent Example
 
 ```yaml
 name: CEO
@@ -195,7 +195,7 @@ skills:
   - review
 ```
 
-### Semantics
+### Agent Semantics
 
 - body content is the canonical default instruction content for the agent
 - `docs` points to sibling markdown docs when present
@@ -206,7 +206,7 @@ skills:
 - vendor-specific adapter/runtime config should not live in the base package
 - local absolute paths, machine-specific cwd values, and secret values must not be exported as canonical package data
 
-### Skill Resolution
+### Agent Skill Resolution
 
 The preferred association standard between agents and skills is by skill shortname.
 
@@ -227,7 +227,7 @@ Rules:
 
 `PROJECT.md` defines a lightweight project package.
 
-### Example
+### Project Example
 
 ```yaml
 name: Q2 Launch
@@ -235,7 +235,7 @@ description: Ship the Q2 launch plan and supporting assets
 owner: cto
 ```
 
-### Semantics
+### Project Semantics
 
 - a project package groups related starter tasks and supporting markdown
 - `owner` should reference an agent slug when there is a clear project owner
@@ -247,7 +247,7 @@ owner: cto
 
 `TASK.md` defines a lightweight starter task.
 
-### Example
+### Task Example
 
 ```yaml
 name: Monday Review
@@ -256,7 +256,7 @@ project: q2-launch
 recurring: true
 ```
 
-### Semantics
+### Task Semantics
 
 - body content is the canonical markdown task description
 - `assignee` should reference an agent slug inside the package
@@ -584,7 +584,6 @@ Optional:
 
 ```text
 .paperclip.yaml
-```
 ```
 
 **Recommendation**
